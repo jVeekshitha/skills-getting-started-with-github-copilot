@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376-push-trigger-input-set
+  identifier: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
