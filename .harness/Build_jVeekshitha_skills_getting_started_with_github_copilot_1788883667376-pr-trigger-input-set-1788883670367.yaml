@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376-pr-trigger-input-set
+  identifier: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jVeekshitha_skills_getting_started_with_github_copilot_1788883667376
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
